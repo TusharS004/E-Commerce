@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+
+.image-welcome img{
+    /* width: 845px; */
+    width: 42vw;
+    height: 100vh;
+}
+
+.Sign-in {
+    flex-direction: column;
+    padding: 200px 50px 0px;
+}
+
+.Sign-in h2 {
+    padding: 50px 0px 0px;
+    font-size: 35px;
+}
+.Sign-in h5 {
+    padding: 8px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.Login {
+    padding: 15px 0px;
+}
+
+.Login p label{
+    display: block;
+    padding: 5px 0px;
+}
+
+.Login p input {
+    width: 445px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 0.71rem;
+    margin-top: 4px;
+}
+
+.Login p input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:lighter;
+    color: rgb(96, 93, 93);
+}
+
+.Login p input[type="password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:lighter;
+    color: rgb(96, 93, 93);
+}
+
+.remember-me-button {
+    margin-top: 18px;
+}
+.checkbox{
+    margin-top: 6px;
+    padding-left: 5px;
+}
+.space {
+    padding-top: 30px;
+    padding-left: 215px;
+}
+.remember-me-button input[type="checkbox"] {
+    margin-right: 5px;
+}
+.forgot-password {
+    margin-top: 6px;
+}
+
+.login-button {
+    color: aliceblue;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 10px 206px;
+    align-items: center;
+    align-content: center;
+}
